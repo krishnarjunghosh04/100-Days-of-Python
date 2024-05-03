@@ -23,10 +23,13 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 #Print the welcome message:
 print("Welcome to Treasue Island\nYour mission is to find the treasure.")
+#here is clue 1:
 clue1=input("You're at a cross road. Where do you want to go? Type Left or Right\n").lower()
 if clue1 == "left":
+          #here is clue 2:
     clue2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across. \n').lower()
     if clue2 == "wait":
+              #here is clue 3:
         clue3= input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose? \n").lower()
         if clue3 == "red":
             print("It's a room full of fire. Game Over.")
